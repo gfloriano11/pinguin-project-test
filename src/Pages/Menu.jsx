@@ -48,8 +48,14 @@ function Menu(){
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-32 bg-[url('assets/images/mountains.png')] bg-no-repeat bg-top bg-cover lg:hidden"></div>
-                <div className="w-full h-32 bg-[url('assets/images/mountains.png')] bg-no-repeat bg-top bg-[length:100%_260px] hidden lg:block"></div>
+                <div className="w-full h-32 bg-no-repeat bg-top bg-cover lg:hidden"
+                  style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}assets/images/mountains.png)`,
+                }}></div>
+                <div className="w-full h-32 bg-no-repeat bg-top bg-[length:100%_260px] hidden lg:block"
+                  style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}assets/images/mountains.png)`,
+                }}></div>
             </div>
         </div>
     );
