@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@theme{
+    --font-inter: 'Inter';
+    --breakpoint-xmd: 50rem;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #E9E9E9;
+}
+
+.bg-purple-pinguin{
+    background-color: #854DA6;
+}
+
+.purple-pinguin{
+    color: #854DA6;
+}
+
+.bg-menu-pinguin{
+    background-color: #F1F1F1;
+}
+
+.bg-login-pinguin{
+    background-color: #EBE8EC
+}
+
+.color-login-pinguin{
+    color: #EBE8EC;
+}
+
+.bg-form-login{
+    background-color: #F2F2F2;
+}
+
+.stroke-color-pinguin{
+    border-color: #6e6e6e;
+}
+
+.gray-border{
+    border-color: #adadad;
+}
+
+.bg-navbar{
+    background-color: #d9d9d9;
+}
+
+.bg-input-navbar{
+    background-color: #BFBFBF;
+}
+
+.bg-cube-gray-navbar{
+    background-color: #5F5F5F;
+}
+
+ 
+.bg-cube-gray-navbar{
+    background-color: #5F5F5F;
+}
+ 
+.bg-icon-user{
+    background-color: #C795E3;
+}
+
+.color-text-search-bar {
+    color: #414141;
+}
+
+.link-purple-pinguin{
+    color: #400960;
+}
+
+.bg-tab{
+    background-color: #BDBDBD;
+}
+
+.bg-purple-create-post{
+    background-color: #C795E3;
+}
+
+.top-shadow-nav-bar-mobile {
+    box-shadow: 8px rgb(39, 39, 39); 
+}
+
+.border-filter{
+    border-width: 1px;
+    border-color: #9D9D9D9D;
+}
+
+.bg-following-button{
+    background-color: #A3A3A3;
+}
+
+.bg-follow-button{
+    background-color: #A162C5;
+}
+
+.bg-follow-back-button{
+    background-color: #6F2E94;
+}
+
+.bg-modal-red{
+    background-color: #CB3234;
+}
+
+.bg-sensitive-content {
+    background-color: #FFACA1;
+}
+
+.bg-exit-pop-up {
+    background-color: #00000066;
+}
+
+#chk {
+  display: none;
+}
+
+.switch {
+  position: relative;
+  background-color: #777;
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: all .3s ease-in-out;
+}
+
+#chk:checked ~ .switch {
+  background-color: #A162C5;
+}
+
+#chk:checked ~ .switch .slider {
+  transform: translateX(50px);
+}
+
+@media (max-width: 768px) {
+    .hidden-navbar {
+       display: none;
+    }
+
+    .increase-width-md {
+        width: 65vw;
+    }
+}
+
+@media (max-width: 640px) {
+    .increase-width-sm {
+        width: 90vw;
+    }
+}
+
+@import 'tailwindcss';
