@@ -10,7 +10,7 @@ function Register(){
                 <title>Registrar</title>
             </head>
             <div className="md:overflow-hidden md:hidden flex justify-center pt-5 h-60 w-full bg-purple-pinguin">
-                <img src="/pinguin-project/public/assets\images\logo-pinguIn-branca.png" className="h-30"/>
+                <img src="assets\images\logo-pinguIn-branca.png" className="h-30"/>
             </div>
             <div className="bg-form-login md:flex md:relative fixed md:h-160 h-153 md:w-182 max-w-[60vw] md:max-w-[80vw] min-w-[320px] top-1/6 md:top-0 md:rounded-md rounded-xl border-1 stroke-color-pinguin shadow-2xl">
                 <div className="md:p-10 p-5 flex flex-col items-center text-center md:w-3/5 gap-6">
@@ -36,7 +36,7 @@ function Register(){
                         <div className="flex justify-center">
                             <Button text='Cadastre-se agora!' bgColor='bg-purple-pinguin' color='text-white' path='/home'/>
                         </div>
-                        <p>Ainda não tem conta <a href="/pinguin-project/login" className="purple-pinguin underline">Entre aqui!</a></p>
+                        <p>Ainda não tem conta <a href="/login" className="purple-pinguin underline">Entre aqui!</a></p>
                     </div>
                     <div className="h-20 md:hidden gap-3 block w-[70%]">
                         <Button text='Cadastre-se' bgColor='bg-purple-pinguin' color='text-white'/>  
