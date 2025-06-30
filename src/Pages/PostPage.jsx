@@ -93,7 +93,7 @@ function PostPage() {
 
     return (
         <section>
-            <NavBar />
+            <NavBar postPage={true}/>
             <section className='flex bg-user-icon pt-[8vh] h-dvh'>
                 <LeftMenu postPage={true}/>
                 <div className='w-full md:w-3/5 flex flex-col items-center pt-3 pb-3 overflow-y-scroll'>
@@ -140,7 +140,7 @@ function PostPage() {
                         <NewComment comments={comments} user={posts[postId-1].user} setComments={setComments} handleKeyDown={handleKeyDown} inputValue={inputValue} setInputValue={setInputValue}/>
                     </div>
                 </div>
-                <RightMenu />
+                <RightMenu postPage={true}/>
             </section>
         </section>
     );
