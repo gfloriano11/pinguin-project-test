@@ -39,7 +39,7 @@ function Register(){
                         <p>Ainda não tem conta <a href="/login" className="purple-pinguin underline">Entre aqui!</a></p>
                     </div>
                     <div className="h-20 md:hidden gap-3 block w-[70%]">
-                        <Button text='Cadastre-se' bgColor='bg-purple-pinguin' color='text-white'/>  
+                        <Button text='Cadastre-se' bgColor='bg-purple-pinguin' color='text-white' path="/home"/>  
                     </div>
                 </div>
                 <div className="bg-purple-pinguin md:p-10 md:flex flex-col justify-center items-center text-center rounded-tr-md rounded-br-md gap-12 w-2/5 hidden">
