@@ -35,7 +35,7 @@ function Login(){
                         </div>
                         <div>
                             <p className="font-bold">Ainda não tem conta?</p>
-                            <a href="/pinguin-project/register" className="purple-pinguin underline">Registre-se aqui!</a>
+                            <a href="/register" className="purple-pinguin underline">Registre-se aqui!</a>
                         </div>
                     </div>
                     <div className="h-15 md:hidden gap-3 block w-[70%]">

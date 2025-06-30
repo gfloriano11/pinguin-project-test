@@ -26,11 +26,11 @@ function Register(){
                         </div>
                     </div>
                     <div className="h-100 w-4/5 flex flex-col justify-between items-center">
-                        <Input image="/pinguin-project/public/assets\images\mail-icon.png" placeholder='E-mail' type='text' Imgsize={50}/>
-                        <Input image="/pinguin-project/public/assets\images\arroba-icon.png" placeholder='Usuário' type='text' Imgsize={70}/>
-                        <Input image="/pinguin-project/public/assets\images\person-white-icon.png" placeholder='Nome completo' type='text' Imgsize={80}/>
-                        <Input image="/pinguin-project/public/assets\images\lock-icon.png" placeholder='Senha' type='password' Imgsize={60}/>
-                        <Input image="/pinguin-project/public/assets\images\lock-icon.png" placeholder='Confirme sua senha' type='password' Imgsize={60}/>
+                        <Input image="assets\images\mail-icon.png" placeholder='E-mail' type='text' Imgsize={50}/>
+                        <Input image="assets\images\arroba-icon.png" placeholder='Usuário' type='text' Imgsize={70}/>
+                        <Input image="assets\images\person-white-icon.png" placeholder='Nome completo' type='text' Imgsize={80}/>
+                        <Input image="assets\images\lock-icon.png" placeholder='Senha' type='password' Imgsize={60}/>
+                        <Input image="assets\images\lock-icon.png" placeholder='Confirme sua senha' type='password' Imgsize={60}/>
                     </div>
                     <div className="h-20 md:flex flex-col gap-3 hidden">
                         <div className="flex justify-center">
@@ -47,12 +47,12 @@ function Register(){
                         <h1>Cadastre-se e junte-se a nós hoje mesmo!</h1>
                     </div>
                     <div className="w-4/5">
-                        <img src="/pinguin-project/public/assets\images\logo-pinguIn-branca.png" alt="logo da empresa"/>
+                        <img src="assets\images\logo-pinguIn-branca.png" alt="logo da empresa"/>
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center h-5 md:hidden">
                     <p className="block md:hidden">Já tem conta?</p>
-                    <Link to="/pinguin-project/login" className="link-purple-pinguin underline font-bold mblock md:hidden">Entre aqui!</Link>
+                    <Link to="/login" className="link-purple-pinguin underline font-bold mblock md:hidden">Entre aqui!</Link>
                 </div>
             </div>
         </section>
