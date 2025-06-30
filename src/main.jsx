@@ -73,10 +73,7 @@ const router = createBrowserRouter(
       path: 'post/:id',
       element: <PostPage/>
     }
-  ],
-  {
-    basename: '/pinguin-project'
-  }
+  ]
 )
 
 createRoot(document.getElementById('root')).render(
