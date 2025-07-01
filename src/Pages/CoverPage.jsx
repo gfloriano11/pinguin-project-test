@@ -9,7 +9,6 @@ function CoverPage(){
             
             <div>
                 <NavBar/>
-                <Search/>
                     <div className="bg-[url('assets/images/background.png')] bg-cover h-[150px] w-[auto] md:bg-cover md:h-[380px] md:w-[auto] bg-center h-64 w-full w "></div>
                     <div className="md:m-[40px] mt-[20px] flex items-center">
                         <img className="pl-[40px] pt-[10px] w-auto h-[70px] md:w-auto md:h-[150px]" src="assets/images/logo-pinguIn-roxo.png"/>
@@ -19,7 +18,7 @@ function CoverPage(){
                             <p className="text-[#854DA6] font-bold">In</p>
                         </div>
                     </div>
-                    <div className="m-[30px] md:m-[50px]">
+                    <div className="m-[30px] md:m-[50px] pb-15 md:pb-0">
                         <div>
                             <p className="pl-[40px] pt-[10px] text-[20px] font-bold md:text-[30px] md:font-bold">Sobre o projeto</p>
                             <br/>
