@@ -39,7 +39,7 @@ function SettingsPage() {
                         <Setting text={"Idioma"} toggle={false} id={2} link="/idiomas"/>
                         <Setting text={"Modo escuro"} toggle={true} id={3} checked={getChecked(3)} onToggle={handleToggle} />
                         <Setting text={"Conta"} toggle={false} id={4} link="/conta" />
-                        <Setting text={"Ajuda"} toggle={false} id={5} link="/cover-page" />
+                        <Setting text={"Sobre"} toggle={false} id={5} link="/cover-page" />
                     </div>
                     <ExitPopUp exitPopUp={exitPopUp} setExitPopUp={setExitPopUp}/>
                     <div>
