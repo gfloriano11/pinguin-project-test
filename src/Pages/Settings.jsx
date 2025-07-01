@@ -30,7 +30,7 @@ function SettingsPage() {
     return (
         <section>
         <NavBar />
-            <section className="flex h-dvh pt-[8vh]">
+            <section className="flex h-dvh pt-[50px] md:pb-0 pb-[55px] h-dvh md:pt-[8vh]">
                 <LeftMenu />
                 <div className="w-full h-full md:w-3/5 flex flex-col justify-between">
                     <div>
