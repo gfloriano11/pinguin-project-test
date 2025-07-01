@@ -54,7 +54,7 @@ function Profile() {
             ?
             <EditProfile user={user} posts={posts} onClick={() => setEditMode(false)} setUsername={setUsername} setFullName={setFullName} setAbout={setAbout}/>
             :
-                <ShowProfile user={user} posts={posts} onClick={() => setEditMode(true)}/>
+            <ShowProfile user={user} posts={posts} onClick={() => setEditMode(true)}/>
             }
             <RightMenu/>
             </section>

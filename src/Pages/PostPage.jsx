@@ -89,7 +89,6 @@ function PostPage() {
         setInputValue(""); 
 
     }
-    console.log(posts[postId-1].user.username);
 
     return (
         <section>
