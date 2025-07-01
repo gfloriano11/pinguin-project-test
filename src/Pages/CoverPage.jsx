@@ -9,7 +9,9 @@ function CoverPage(){
             
             <div>
                 <NavBar/>
-                    <div className="bg-[url('assets/images/background.png')] bg-cover h-[150px] w-[auto] md:bg-cover md:h-[380px] md:w-[auto] bg-center h-64 w-full w "></div>
+                    <div className="bg-cover h-[150px] w-[auto] md:bg-cover md:h-[380px] md:w-[auto] bg-center h-64 w-full w" style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}assets/images/background.png)`,
+                }}></div>
                     <div className="md:m-[40px] mt-[20px] flex items-center">
                         <img className="pl-[40px] pt-[10px] w-auto h-[70px] md:w-auto md:h-[150px]" src="assets/images/logo-pinguIn-roxo.png"/>
                         <p className="pl-5 text-[17px] md:text-[40px]">Saiba mais sobre o</p>
